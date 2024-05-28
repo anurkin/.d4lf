@@ -7,6 +7,12 @@ and needed profiles `*.yaml` to `C:/Users/WINDOWS_USER/.d4lf/profiles`
 
 This setup is helpful to facilitate updating to a new version as you don't need to copy around your config and profiles.
 
+To load/remove profiles to/from D4LF you need just once add/remove profile name to `C:/Users/WINDOWS_USER/.d4lf/params.ini` with Notepad or any text editor.
+
+Example:
+`profiles=s4_sigils,s4_necro_minions_pit,s4_necro_golem_minion,s4_sorc_forb`
+separated with `,` no spaces allowed (just exclude `.yaml` from profile's file name).
+
 -------------------------
 D4LF будет смотреть `params.ini` и  `profiles/*.yaml` в папке `C:/Users/WINDOWS_USER/.d4lf`.
 Все значения `C:/Users/WINDOWS_USER/.d4lf/params.ini` будут перезаписывать значения из файла `params.ini` в папке самого D4LF.
@@ -16,3 +22,9 @@ D4LF будет смотреть `params.ini` и  `profiles/*.yaml` в папк�
 и нужные профили `*.yaml` в папку `C:/Users/WINDOWS_USER/.d4lf/profiles`
 
 Эта настройка помогает и облегчает обновление на обновленные версии D4LF так как вам больше не требуется сохранять/копировать/прописывать конигурацию и профили.
+
+Чтобы загружать/удалять профили в/из D4LF вам необходимо один раз добавить/удалить имя профиля в файле `C:/Users/WINDOWS_USER/.d4lf/params.ini` с помощью программы Блокнот или любого текстового редактора.
+
+Пример:
+`profiles=s4_sigils,s4_necro_minions_pit,s4_necro_golem_minion,s4_sorc_forb`
+разделение профилей через `,` пробелы не допускаются (просто исключите `.yaml` из имени файла профиля).
