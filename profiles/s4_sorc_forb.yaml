@@ -1,0 +1,95 @@
+Affixes:
+#
+# S4 - Frozen Orb - Jon Snow (Vyr's + Ubers T100) build by Lurkin
+# STRICT VERSION - 925 2/3 with medium-end affixes rolls
+#
+# https://mobalytics.gg/diablo-4/profile/7a6796d2-fb9a-4afb-961b-fcb4cd9d088c/builds/68fb0879-c615-4fc7-ab1f-12f09e43901c
+#
+# Most Affixes on Armor have ranges capped after ilvl 780
+# Add minPower: xyz if desired where xyz is your target ilvl
+# Jewelry should be 890+ to maximize the implicit resistance affixes
+# All classes want a 925 Weapon. The Offhand should be 925 whenever possible if your class scales with off-hand weapon damage.
+
+  - Helm:
+      itemType: helm
+      minPower: 925
+      affixPool:
+        - count:
+            - [ mana_per_second, 4 ]
+            - [ cooldown_reduction, 7.0 ]
+            - [ maximum_life, 800 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Armor:
+      itemType: chest armor
+      minPower: 925
+      affixPool:
+        - count:
+            - [ intelligence, 85 ]
+            - [ maximum_life, 800 ]
+            - [ armor, 1675 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Gloves:
+      itemType: gloves
+      minPower: 925
+      affixPool:
+        - count: 
+            - [ to_frozen_orb, 3 ]
+            - [ attack_speed, 8.0 ]
+            - [ critical_strike_chance, 7.0 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Amulet:
+      itemType: amulet
+      minPower: 925
+      affixPool:
+        - count:
+            - [ to_conjuration_mastery, 2 ]
+            - [ cooldown_reduction, 7.0 ]
+            - [ critical_strike_chance, 7.0 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Ring:
+      itemType: ring
+      minPower: 925
+      affixPool:
+        - count:
+            - [ attack_speed, 8.0 ]
+            - [ critical_strike_chance, 5.5 ]
+            - [ intelligence, 85 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Weapon:
+      itemType: wand
+      minPower: 925
+      affixPool:
+        - count: 
+            - [ intelligence, 85 ]
+            - [ vulnerable_damage, 35 ]
+            - [ maximum_life, 800 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Focus:
+      itemType: focus
+      minPower: 925
+      affixPool:
+        - count: 
+            - [ critical_strike_chance, 7.0 ]
+            - [ cooldown_reduction, 7.0 ]
+            - [ intelligence, 85 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
