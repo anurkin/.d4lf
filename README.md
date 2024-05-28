@@ -1,8 +1,6 @@
-Configuration and Profiles Set for D4LF (Diablo 4 Loot Filter)/
-Настройки и Профили для D4LF (Diablo 4 Loot Filter)
+Configuration and Profiles Set for / Настройки и Профили для `D4LF (Diablo 4 Loot Filter)`/
 
-D4LF (Diablo 4 Loot Filter) project website:/
-D4LF (Diablo 4 Loot Filter) сайт проекта:
+`D4LF (Diablo 4 Loot Filter)` project website / сайт проекта:
 
 https://github.com/aeon0/d4lf
 
