@@ -1,3 +1,12 @@
+Configuration and Profiles Set for D4LF (Diablo 4 Loot Filter)
+Настройки и Профили для D4LF (Diablo 4 Loot Filter)
+
+D4LF (Diablo 4 Loot Filter) project website:
+D4LF (Diablo 4 Loot Filter) сайт проекта:
+
+https://github.com/aeon0/d4lf
+
+-------------------------
 D4LF will search for `params.ini` and for `profiles/*.yaml` in `C:/Users/WINDOWS_USER/.d4lf`.
 All values in `C:/Users/WINDOWS_USER/.d4lf/params.ini` will overwrite the values from the `params.ini` file in the D4LF folder.
 In the profiles folder, additional custom profiles can be added and used.
