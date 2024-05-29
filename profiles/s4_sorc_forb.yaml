@@ -46,18 +46,6 @@ Affixes:
           maxCount: 3
           minGreaterAffixCount: 0
 
-  - Amulet:
-      itemType: amulet
-      minPower: 925
-      affixPool:
-        - count:
-            - [ to_conjuration_mastery, 2 ]
-            - [ cooldown_reduction, 7.0 ]
-            - [ critical_strike_chance, 7.0 ]
-          minCount: 2
-          maxCount: 3
-          minGreaterAffixCount: 0
-
   - Ring:
       itemType: ring
       minPower: 925
@@ -93,3 +81,4 @@ Affixes:
           minCount: 2
           maxCount: 3
           minGreaterAffixCount: 0
+
