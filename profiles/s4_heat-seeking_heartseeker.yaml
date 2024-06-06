@@ -16,7 +16,7 @@ Affixes:
         - count:
             - [ lucky_hit_chance, 7.0 ]
             - [ maximum_life, 800 ]
-            - [ cooldown_reductionn, 7.0 ]
+            - [ cooldown_reduction, 7.0 ]
           minCount: 2
           maxCount: 3
           minGreaterAffixCount: 0
