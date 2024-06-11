@@ -63,7 +63,7 @@ Affixes:
       inherentPool:
         - count:
             - [ maximum_evade_charges, 2 ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ maximum_life ]
