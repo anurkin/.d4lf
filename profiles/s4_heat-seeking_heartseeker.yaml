@@ -63,7 +63,7 @@ Affixes:
       inherentPool:
         - count:
             - [ attacks_reduce_evades_cooldown_by_seconds ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ dexterity, 80 ]
@@ -92,7 +92,7 @@ Affixes:
         - count:
             - [ poison_resistance ]
             - [ cold_resistance ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ lucky_hit_chance, 5.5 ]
@@ -109,7 +109,7 @@ Affixes:
         - count:
             - [ poison_resistance ]
             - [ cold_resistance ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ lucky_hit_chance, 5.5 ]
