@@ -63,7 +63,7 @@ Affixes:
       inherentPool:
         - count:
             - [ maximum_evade_charges, 2 ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ intelligence, 85 ]
@@ -92,7 +92,7 @@ Affixes:
         - count:
             - [ poison_resistance ]
             - [ cold_resistance ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ critical_strike_chance, 5.5 ]
@@ -109,7 +109,7 @@ Affixes:
         - count:
             - [ poison_resistance ]
             - [ cold_resistance ]
-        - minCount: 1
+          minCount: 1
       affixPool:
         - count:
             - [ intelligence, 85 ]
