@@ -1,0 +1,123 @@
+Affixes:
+#
+# S4 - New Weapon Tech (++Damage ++Survival) build by p4wnyhof
+# STRICT VERSION - 925 2/3 with medium-end affixes rolls
+#
+# https://mobalytics.gg/diablo-4/profile/15fcdb6b-735b-484e-86f7-610728bcdff1/builds/ceae5644-a632-4df0-a785-151362e1e52c
+#
+# Most Affixes on Armor have ranges capped after ilvl 780
+# Add minPower: xyz if desired where xyz is your target ilvl
+# Jewelry should be 890+ to maximize the implicit resistance affixes
+# All classes want a 925 Weapon. The Offhand should be 925 whenever possible if your class scales with off-hand weapon damage.
+
+  - Armor:
+      itemType: chest armor
+      minPower: 925
+      affixPool:
+        - count:
+            - [ to_golem_mastery, 2]
+            - [ maximum_life, 800 ]
+            - [ armor, 1675 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Gloves:
+      itemType: gloves
+      minPower: 925
+      affixPool:
+        - count:
+            - [ critical_strike_chance, 7.0 ]
+            - [ attack_speed, 8.0 ]
+            - [ to_skeletal_mage_mastery, 2 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Pants:
+      itemType: pants
+      minPower: 925
+      affixPool:
+        - count: 
+            - [ maximum_life, 800 ]
+            - [ armor, 1675 ]
+            - [ to_skeletal_mage_mastery, 2 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Boots:
+      itemType: boots
+      minPower: 925
+      inherentPool:
+        - count:
+            - [ maximum_evade_charges, 3 ]
+          minCount: 1
+      affixPool:
+        - count:
+            - [ maximum_life, 800 ]
+            - [ armor, 1675 ]
+            - [ to_skeletal_warrior_mastery, 2 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Amulet:
+      itemType: amulet
+      minPower: 925
+      affixPool:
+        - count:
+            - [ to_hellbent_commander, 2 ]
+            - [ to_amplify_damage, 2 ]
+            - [ critical_strike_chance, 7.0 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Ring_1:
+      itemType: ring
+      minPower: 925
+      affixPool:
+        - count:
+            - [ critical_strike_damage, 45 ]
+            - [ critical_strike_chance, 5.5 ]
+            - [ attack_speed, 8.0 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Ring_2:
+      itemType: ring
+      minPower: 925
+      affixPool:
+        - count:
+            - [ critical_strike_chance, 5.5 ]
+            - [ attack_speed, 8.0 ]
+            - [ maximum_life, 800 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Sword_1H:
+      itemType: sword
+      minPower: 925
+      affixPool:
+        - count:
+            - [ intelligence, 80 ]
+            - [ critical_strike_damage, 45 ]
+            - [ maximum_life, 825 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
+
+  - Focus:
+      itemType: focus
+      minPower: 925
+      affixPool:
+        - count:
+            - [ maximum_life, 800 ]
+            - [ critical_strike_chance, 7.0 ]
+            - [ intelligence, 80 ]
+          minCount: 2
+          maxCount: 3
+          minGreaterAffixCount: 0
