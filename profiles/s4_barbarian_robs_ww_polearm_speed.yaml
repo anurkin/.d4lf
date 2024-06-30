@@ -3,89 +3,88 @@
 # 2024-06-30 14:50:14 (v5.6.1)
 Affixes:
 - Amulet:
+    minPower: 925
     affixPool:
     - count:
-      - {name: to_cut_to_the_bone}
-      - {name: critical_strike_chance}
-      - {name: to_heavy_handed}
+      - { name: to_cut_to_the_bone, value: 1 }
+      - { name: critical_strike_chance, value: 7 }
+      - { name: to_heavy_handed, value: 1 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [amulet]
 - Boots:
+    minPower: 925
     affixPool:
     - count:
-      - {name: movement_speed}
-      - {name: strength}
-      - {name: to_war_cry}
+      - { name: movement_speed, value: 17 }
+      - { name: strength, value: 80 }
+      - { name: to_war_cry, value: 2 }
       minCount: 2
       minGreaterAffixCount: 0
     inherentPool:
     - count:
-      - {name: attacks_reduce_evades_cooldown_by_seconds}
+      - { name: attacks_reduce_evades_cooldown_by_seconds }
     itemType: [boots]
 - Gloves:
+    minPower: 925
     affixPool:
     - count:
-      - {name: critical_strike_chance}
-      - {name: critical_strike_damage}
-      - {name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds}
+      - { name: critical_strike_chance, value: 7 }
+      - { name: critical_strike_damage, value: 45 }
+      - { name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds, value: 20 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [gloves]
 - Legs:
+    minPower: 925
     affixPool:
     - count:
-      - {name: strength}
-      - {name: armor}
-      - {name: lightning_resistance}
+      - { name: strength, value: 80 }
+      - { name: armor, value: 1675 }
+      - { name: lightning_resistance, value: 36 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [pants]
 - Mace2H:
+    minPower: 925
     affixPool:
     - count:
-      - {name: strength}
-      - {name: vulnerable_damage}
-      - {name: fury_on_kill}
+      - { name: strength, value: 170 }
+      - { name: vulnerable_damage, value: 70 }
+      - { name: fury_on_kill, value: 5 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [two-handed mace]
 - Polearm:
+    minPower: 925
     affixPool:
     - count:
-      - {name: strength}
-      - {name: vulnerable_damage}
-      - {name: maximum_life}
+      - { name: strength, value: 170 }
+      - { name: vulnerable_damage, value: 70 }
+      - { name: maximum_life, value: 1650 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [polearm]
 - Ring:
+    minPower: 925
     affixPool:
     - count:
-      - {name: critical_strike_chance}
-      - {name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds}
-      - {name: vulnerable_damage}
+      - { name: critical_strike_chance, value: 5.5 }
+      - { name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds, value: 20 }
+      - { name: vulnerable_damage, value: 35 }
       minCount: 2
       minGreaterAffixCount: 0
     inherentPool:
     - count:
-      - {name: fire_resistance}
+      - { name: fire_resistance }
     itemType: [ring]
 - Sword:
+    minPower: 925
     affixPool:
     - count:
-      - {name: maximum_life}
-      - {name: vulnerable_damage}
-      - {name: strength}
-      minCount: 2
-      minGreaterAffixCount: 0
-    itemType: [sword]
-- Sword2:
-    affixPool:
-    - count:
-      - {name: strength}
-      - {name: vulnerable_damage}
-      - {name: maximum_life}
+      - { name: maximum_life, value: 800 }
+      - { name: vulnerable_damage, value: 35 }
+      - { name: strength, value: 80 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [sword]
