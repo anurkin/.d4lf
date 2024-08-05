@@ -1,0 +1,80 @@
+#
+# S5 - Sorcerer - Chain Lightning Leveling Build) by Lurkin
+# https://mobalytics.gg/diablo-4/profile/7a6796d2-fb9a-4afb-961b-fcb4cd9d088c/builds/275bdf00-3207-4ee2-b3d5-6b6dab42d366?equipmentTab=gear-stats&variantTab=1
+# 2024-08-05 18:51:07 (v5.6.4)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: attack_speed}
+      - {name: cooldown_reduction}
+      - {name: movement_speed}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [amulet]
+- Boots:
+    affixPool:
+    - count:
+      - {name: movement_speed}
+      - {name: mana_per_second}
+      - {name: intelligence}
+      minCount: 2
+      minGreaterAffixCount: 0
+    inherentPool:
+    - count:
+      - {name: maximum_evade_charges}
+    itemType: [boots]
+- ChestArmor:
+    affixPool:
+    - count:
+      - {name: mana_per_second}
+      - {name: maximum_life}
+      - {name: armor}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [chest armor]
+- Gloves:
+    affixPool:
+    - count:
+      - {name: to_chain_lightning}
+      - {name: attack_speed}
+      - {name: critical_strike_chance}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [gloves]
+- Helm:
+    affixPool:
+    - count:
+      - {name: armor}
+      - {name: cooldown_reduction}
+      - {name: mana_per_second}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [helm]
+- Ring:
+    affixPool:
+    - count:
+      - {name: attack_speed}
+      - {name: critical_strike_chance}
+      - {name: intelligence}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [ring]
+- Ring2:
+    affixPool:
+    - count:
+      - {name: attack_speed}
+      - {name: critical_strike_chance}
+      - {name: intelligence}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [ring]
+- Staff:
+    affixPool:
+    - count:
+      - {name: intelligence}
+      - {name: maximum_life}
+      - {name: damage}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [staff]
