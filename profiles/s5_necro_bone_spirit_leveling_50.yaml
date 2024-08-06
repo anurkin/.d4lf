@@ -1,0 +1,79 @@
+# https://maxroll.gg/d4/planner/kg5k60cm#1
+# 2024-08-06 16:10:20 (v5.6.4)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: maximum_resource}
+      - {name: cooldown_reduction}
+      - {name: to_evulsion}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [amulet]
+- Boots:
+    affixPool:
+    - count:
+      - {name: movement_speed}
+      - {name: essence_per_second}
+      - {name: to_bone_spirit}
+      minCount: 2
+      minGreaterAffixCount: 0
+    inherentPool:
+    - count:
+      - {name: maximum_evade_charges}
+    itemType: [boots]
+- ChestArmor:
+    affixPool:
+    - count:
+      - {name: essence_per_second}
+      - {name: maximum_life}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [chest armor]
+- Gloves:
+    affixPool:
+    - count:
+      - {name: critical_strike_chance}
+      - {name: intelligence}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [gloves]
+- Helm:
+    affixPool:
+    - count:
+      - {name: essence_per_second}
+      - {name: cooldown_reduction}
+      - {name: maximum_resource}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [helm]
+- Legs:
+    affixPool:
+    - count:
+      - {name: intelligence}
+      - {name: maximum_life}
+      - {name: armor}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [pants]
+- Ring:
+    affixPool:
+    - count:
+      - {name: intelligence}
+      - {name: critical_strike_chance}
+      - {name: critical_strike_damage}
+      minCount: 2
+      minGreaterAffixCount: 0
+    inherentPool:
+    - count:
+      - {name: fire_resistance}
+    itemType: [ring]
+- Scythe2H:
+    affixPool:
+    - count:
+      - {name: intelligence}
+      - {name: maximum_life}
+      - {name: critical_strike_damage}
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [two-handed scythe]
