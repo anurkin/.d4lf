@@ -11,7 +11,7 @@ Affixes:
       - { name: to_devouring_blaze}
       - { name: critical_strike_chance, value: 7.0 }
       - { name: cooldown_reduction, value: 7.0 }
-      minCount: 1
+      minCount: 2
       minGreaterAffixCount: 0
     itemType: [amulet]
 - Legs:
