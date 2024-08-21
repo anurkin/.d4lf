@@ -13,6 +13,15 @@ Affixes:
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [gloves]
+- Pants:
+    affixPool:
+    - count:
+      - { name: intelligence, value: 90 }
+      - { name: maximum_life, value: 1746 }
+      - { name: dodge_chance, value: 6 }
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [pants]
 - Ring:
     affixPool:
     - count:
