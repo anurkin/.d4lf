@@ -1,10 +1,10 @@
 #
-# S5 Sorcerer Frozen Orb - Jon Snow - Tesla Edition by Lurkin
+# S5 Sorcerer Frozen Orb - Jon Snow Tesla Edition by Lurkin
 # 
-# ---- Ubers Version ----
+# ---- Uber (Hybrid for Horde) Version ----
 #
 # https://mobalytics.gg/diablo-4/profile/7a6796d2-fb9a-4afb-961b-fcb4cd9d088c/builds/68fb0879-c615-4fc7-ab1f-12f09e43901c?equipmentTab=gear-stats&variantTab=0
-# 2024-08-13 09:57:55 (v5.7.0)
+# 2024-09-02 10:57:55 (v5.7.10)
 Affixes:
 - Focus:
     affixPool:
@@ -20,7 +20,7 @@ Affixes:
     affixPool:
     - count:
       - { name: attack_speed, value: 9.0 }
-      - { name: critical_strike_damage, value: 45 }
+      - { name: intelligence, value: 90 }
       - { name: to_frozen_orb, value: 3 }
       minCount: 2
       minGreaterAffixCount: 0
@@ -40,7 +40,7 @@ Affixes:
     - count:
       - { name: attack_speed, value: 9.0 }
       - { name: critical_strike_chance, value: 6.0 }
-      - { name: critical_strike_damage, value: 45 }
+      - { name: intelligence, value: 90 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [ring]
