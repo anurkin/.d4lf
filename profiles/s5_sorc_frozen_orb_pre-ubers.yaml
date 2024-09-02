@@ -6,36 +6,6 @@
 # https://mobalytics.gg/diablo-4/profile/7a6796d2-fb9a-4afb-961b-fcb4cd9d088c/builds/68fb0879-c615-4fc7-ab1f-12f09e43901c?equipmentTab=gear-stats&variantTab=1
 # 2024-08-17 10:01:49 (v5.7.1)
 Affixes:
-- ChestArmor:
-    affixPool:
-    - count:
-      - { name: intelligence, value: 85 }
-      - { name: maximum_life, value: 800 }
-      - { name: armor, value: 1750 }
-      minCount: 2
-      minGreaterAffixCount: 0
-    itemType: [chest armor]
-    minPower: 925
-- Focus:
-    affixPool:
-    - count:
-      - { name: intelligence, value: 85 }
-      - { name: cooldown_reduction, value: 8.0 }
-      - { name: critical_strike_chance, value: 7.0 }
-      minCount: 2
-      minGreaterAffixCount: 0
-    itemType: [focus]
-    minPower: 925
-- Gloves:
-    affixPool:
-    - count:
-      - { name: attack_speed, value: 9.0 }
-      - { name: critical_strike_chance, value: 7.0 }
-      - { name: to_frozen_orb, value: 2 }
-      minCount: 2
-      minGreaterAffixCount: 0
-    itemType: [gloves]
-    minPower: 925
 - Helm:
     affixPool:
     - count:
@@ -46,12 +16,32 @@ Affixes:
       minGreaterAffixCount: 0
     itemType: [helm]
     minPower: 925
+- ChestArmor:
+    affixPool:
+    - count:
+      - { name: intelligence, value: 85 }
+      - { name: maximum_life, value: 800 }
+      - { name: armor, value: 1750 }
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [chest armor]
+    minPower: 925
+- Gloves:
+    affixPool:
+    - count:
+      - { name: attack_speed, value: 9.0 }
+      - { name: intelligence, value: 85 }
+      - { name: to_frozen_orb, value: 2 }
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [gloves]
+    minPower: 925
 - Ring:
     affixPool:
     - count:
       - { name: attack_speed, value: 9.0 }
       - { name: critical_strike_chance, value: 5.5 }
-      - { name: critical_strike_damage, value: 45 }
+      - { name: intelligence, value: 85 }
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [ring]
@@ -65,4 +55,14 @@ Affixes:
       minCount: 2
       minGreaterAffixCount: 0
     itemType: [wand]
+    minPower: 925
+- Focus:
+    affixPool:
+    - count:
+      - { name: intelligence, value: 85 }
+      - { name: cooldown_reduction, value: 8.0 }
+      - { name: critical_strike_chance, value: 7.0 }
+      minCount: 2
+      minGreaterAffixCount: 0
+    itemType: [focus]
     minPower: 925
