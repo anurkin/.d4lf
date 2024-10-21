@@ -1,0 +1,75 @@
+#
+# S6_SpiritBorn Mekuna's Quill Volley Build Pit150in 3min
+#
+# https://mobalytics.gg/diablo-4/profile/488e94b2-25a8-4b09-95aa-f74e532482cc/builds/c3cc9203-9c7f-4ad5-8330-d9a829ec73de?coreTab=assigned-skills&equipmentTab=aspects-and-uniques&variantTab=1
+# 2024-10-20 12:25:00 (v5.8.9)
+Affixes:
+- Helm:
+    affixPool:
+    - count:
+      - { name: maximum_life}
+      - { name: dexterity}
+      - { name: maximum_resource}
+      minCount: 2
+      minGreaterAffixCount: 1
+    itemType: [helm]
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - { name: to_quill_volley}
+      - { name: maximum_life}
+      - { name: attack_speed}
+      minCount: 2
+      minGreaterAffixCount: 1
+    itemType: [gloves]
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - { name: to_basic_skills}
+      - { name: maximum_life}
+      - { name: dexterity}
+      minCount: 2
+      minGreaterAffixCount: 1
+    itemType: [pants]
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - { name: maximum_life}
+      - { name: dexterity}
+      - { name: armor}
+      minCount: 2
+      minGreaterAffixCount: 1
+    itemType: [boots]
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - { name: dexterity}
+      - { name: maximum_life}
+      - { name: attack_speed}
+      minCount: 2
+      minGreaterAffixCount: 1
+    itemType: [ring]
+    minPower: 800
+Uniques:
+- aspect: { name: rod_of_kepeleke }
+  affix:
+  - { name: critical_strike_damage}
+  - { name: maximum_resource}
+  - { name: to_velocity}
+  - { name: chance_for_core_skills_to_hit_twice}
+- aspect: { name: banished_lords_talisman}
+  affix:
+  - { name: maximum_life}
+  - { name: overpower_damage}
+  - { name: attack_speed}
+  - { name: to_core_skills}
+- aspect: { name: ring_of_the_midnight_sun}
+  affix:
+  - { name: dexterity}
+  - { name: cooldown_reduction}
+  - { name: critical_strike_damage}
+  - { name: to_mirage}
