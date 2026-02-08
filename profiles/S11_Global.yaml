@@ -1,0 +1,35 @@
+# Global rules set
+# 2026-01-11
+Tributes:
+    - tribute_of_ascendance
+    - tribute_of_radiance
+    - major_tribute_of_andariel
+    - tribute_of_andariel
+Sigils:
+  whitelist:
+# --------
+# Kurast Undercity
+# --------
+#    - guaranteed_treasure_goblins
+    - treasure_breach
+    - mythic_prankster
+    - hidden_armory
+# --------
+# Gems
+# --------
+#    - amethyst_reserve
+#    - diamond_reserve
+#    - emerald_reserve
+#    - ruby_reserve
+#    - sapphire_reserve
+#    - skull_reserve
+#    - topaz_reserve
+# --------
+# XP Pools
+# --------
+#   - forgotten_wisdom
+  priority: whitelist
+Uniques:
+  - minPower: 800
+    minGreaterAffixCount: 3
+    minPercentOfAspect: 90

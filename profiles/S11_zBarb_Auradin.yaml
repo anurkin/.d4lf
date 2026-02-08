@@ -1,0 +1,86 @@
+# https://d4builds.gg/builds/b3fbd306-9fc9-484a-9f2f-26150bcbfd98/?var=1
+# 2026-01-23 11:11:50 (v8.0.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: attack_speed, want_greater: true}
+      minCount: 3
+    itemType: [amulet]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: armor}
+      - {name: movement_speed, want_greater: true}
+      - {name: maximum_life}
+      - {name: to_war_cry, want_greater: true}
+      minCount: 3
+    inherentPool:
+    - count:
+      - {name: attacks_reduce_evades_cooldown_by_seconds}
+      maxCount: 1
+      minCount: 1
+    itemType: [boots]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: attack_speed, want_greater: true}
+      - {name: armor}
+      - {name: maximum_life, want_greater: true}
+      - {name: resistance_to_all_elements, want_greater: true}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Mace2H:
+    affixPool:
+    - count:
+      - {name: life_on_hit}
+      - {name: maximum_life}
+      - {name: strength, want_greater: true}
+      - {name: fury_on_kill}
+      minCount: 3
+    itemType: [two-handed mace]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - {name: attack_speed, want_greater: true}
+      - {name: maximum_life}
+      - {name: resistance_to_all_elements}
+      - {name: healing_received}
+      minCount: 3
+    itemType: [ring]
+    minGreaterAffixCount: 1
+    minPower: 800
+AspectUpgrades: [dust_devils, ghostwalker, smiting, bold_chieftains, 
+    of_earthquakes]
+Uniques:
+- aspect: {name: rage_of_harrogath}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80
+- aspect: {name: ring_of_the_ravenous}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80
+- aspect: {name: fields_of_crimson}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80
+- aspect: {name: doombringer}
+- aspect: {name: chainscourged_mail}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80
+- aspect: {name: harlequin_crest}
+- aspect: {name: the_third_blade}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80

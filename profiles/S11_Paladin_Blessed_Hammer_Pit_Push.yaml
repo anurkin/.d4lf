@@ -1,0 +1,61 @@
+# https://mobalytics.gg/diablo-4/builds/paladin-blessed-hammer-mekuna?ws-ngf5-1=activeVariantId,6
+# 2026-01-24 21:26:27 (v8.0.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: to_crack_in_the_armor, want_greater: true}
+      - {name: to_fortitude}
+      - {name: to_heavyweight, want_greater: true}
+      - {name: to_the_best_offense}
+      minCount: 2
+    itemType: [amulet]
+    minGreaterAffixCount: 0
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: armor}
+      - {name: maximum_life}
+      - {name: faith_per_second, want_greater: true}
+      minCount: 3
+    inherentPool:
+    - count:
+      - {name: attacks_reduce_evades_cooldown_by_seconds}
+      maxCount: 1
+      minCount: 1
+    itemType: [boots]
+    minGreaterAffixCount: 2
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: cooldown_reduction}
+      - {name: lucky_hit_up_to_a_chance_to_restore_primary_resource}
+      - {name: to_blessed_hammer, want_greater: true}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - {name: armor}
+      - {name: maximum_life}
+      - {name: strength, want_greater: true}
+      - {name: potion_capacity, want_greater: true}
+      minCount: 3
+    itemType: [pants]
+    minGreaterAffixCount: 2
+    minPower: 800
+Uniques:
+- aspect: {name: ring_of_starless_skies}
+  affix:
+  - {name: attack_speed, want_greater: true}
+  - {name: critical_strike_chance, want_greater: true}
+  - {name: lucky_hit_chance}
+  - {name: to_core_skills, want_greater: true}
+  minGreaterAffixCount: 3
+  minPower: 800

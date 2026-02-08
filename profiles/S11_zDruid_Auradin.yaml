@@ -1,0 +1,89 @@
+# https://d4builds.gg/builds/f3c87aff-bd87-4caf-9704-be42a556f427/?var=1
+# 2026-01-11 17:02:07 (v8.0.1)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: attack_speed}
+      - {name: maximum_life}
+      - {name: movement_speed}
+      minCount: 3
+    itemType: [amulet]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: maximum_life, want_greater: true}
+      - {name: movement_speed}
+      - {name: armor}
+      - {name: to_hurricane}
+      minCount: 3
+    itemType: [boots]
+    minGreaterAffixCount: 1
+    minPower: 800
+- ChestArmor:
+    affixPool:
+    - count:
+      - {name: maximum_life}
+      - {name: to_defensive_skills, want_greater: true}
+      - {name: spirit_per_second}
+      - {name: resistance_to_all_elements}
+      minCount: 3
+    itemType: [chest armor]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: attack_speed, want_greater: true}
+      - {name: maximum_life}
+      - {name: resistance_to_all_elements}
+      - {name: armor}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - {name: maximum_life, want_greater: true}
+      - {name: armor}
+      - {name: resistance_to_all_elements}
+      - {name: dodge_chance}
+      minCount: 3
+    itemType: [pants]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - {name: attack_speed}
+      - {name: cooldown_reduction}
+      - {name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds}
+      - {name: maximum_life}
+      minCount: 3
+    itemType: [ring]
+    minPower: 800
+- Weapon:
+    affixPool:
+    - count:
+      - {name: attack_speed}
+      - {name: maximum_life}
+      - {name: spirit_on_kill}
+      - {name: resource_cost_reduction, want_greater: true}
+      minCount: 3
+    itemType: [axe, two-handed axe, bow, crossbow, dagger, flail, focus, glaive, 
+        mace, two-handed mace, totem, polearm, quarterstaff, scythe, two-handed 
+        scythe, staff, sword, two-handed sword, tome, wand]
+    minGreaterAffixCount: 1
+    minPower: 800
+AspectUpgrades: [of_cyclonic_force, of_the_stampede, wildbolt, ghostwalker, 
+    of_shattered_defenses, smiting, moonrage]
+Uniques:
+- aspect: {name: airidahs_inexorable_will}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80
+- aspect: {name: heir_of_perdition}

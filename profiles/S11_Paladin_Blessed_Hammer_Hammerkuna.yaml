@@ -1,0 +1,106 @@
+# https://mobalytics.gg/diablo-4/builds/paladin-blessed-hammer-mekuna?ws-ngf5-1=activeVariantId,3
+# 2026-01-16 15:29:46 (v8.0.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: to_iron_sharpens_iron, want_greater: true}
+      - {name: strength}
+      - {name: to_righteousness, want_greater: true}
+      - {name: to_the_best_offense}
+      minCount: 2
+    itemType: [amulet]
+    minGreaterAffixCount: 0
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: armor}
+      - {name: maximum_life}
+      - {name: faith_per_second}
+      minCount: 3
+    inherentPool:
+    - count:
+      - {name: attacks_reduce_evades_cooldown_by_seconds}
+      maxCount: 1
+      minCount: 1
+    itemType: [boots]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: strength}
+      - {name: critical_strike_chance}
+      - {name: cooldown_reduction}
+      - {name: to_blessed_hammer, want_greater: true}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - {name: armor}
+      - {name: maximum_life}
+      - {name: strength, want_greater: true}
+      - {name: faith_per_second}
+      minCount: 3
+    itemType: [pants]
+    minGreaterAffixCount: 1
+    minPower: 800
+AspectUpgrades: [of_the_arbiters_zephyr, of_the_indomitable, of_celestial_strife,
+  of_ascension]
+Uniques:
+- aspect: {name: heir_of_perdition}
+  affix:
+  - {name: critical_strike_chance, want_greater: true}
+  - {name: lucky_hit_chance}
+  - {name: movement_speed}
+  - {name: to_core_skills, want_greater: true}
+  minGreaterAffixCount: 2
+  minPower: 800
+- aspect: {name: shroud_of_false_death}
+  affix:
+  - {name: all_stats, want_greater: true}
+  - {name: maximum_life}
+  - {name: damage_on_next_attack_after_entering_stealth}
+  - {name: resource_generation}
+  minGreaterAffixCount: 1
+  minPower: 800
+- aspect: {name: herald_of_zakarum}
+  affix:
+  - {name: to_core_skills, want_greater: true}
+  - {name: chance_for_retribution_to_deal_double_damage}
+  - {name: armor, want_greater: true}
+  - {name: maximum_life}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800
+- aspect: {name: argent_veil}
+  affix:
+  - {name: to_core_skills, want_greater: true}
+  - {name: strength, want_greater: true}
+  - {name: maximum_life}
+  - {name: vulnerable_damage}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800
+- aspect: {name: ring_of_starless_skies}
+  affix:
+  - {name: attack_speed}
+  - {name: critical_strike_chance, want_greater: true}
+  - {name: lucky_hit_chance}
+  - {name: to_core_skills, want_greater: true}
+  minGreaterAffixCount: 2
+  minPower: 800
+- aspect: {name: heralds_morningstar}
+  affix:
+  - {name: strength, want_greater: true}
+  - {name: maximum_life}
+  - {name: to_blessed_hammer, want_greater: true}
+  - {name: chance_for_blessed_hammer_to_deal_double_damage, want_greater: true}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800

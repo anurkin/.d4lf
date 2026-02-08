@@ -1,0 +1,83 @@
+# https://d4builds.gg/builds/e3aab60e-15a0-47ee-99ec-648788901104/?var=1
+# 2026-01-15 15:21:37 (v8.0.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: to_heavyweight, want_greater: true}
+      - {name: to_righteousness, want_greater: true}
+      - {name: to_the_best_offense}
+      - {name: to_crack_in_the_armor}
+      minCount: 2
+    itemType: [amulet]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: maximum_life}
+      - {name: faith_per_second, want_greater: true}
+      - {name: armor}
+      minCount: 3
+    itemType: [boots]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: critical_strike_chance, want_greater: true}
+      - {name: strength}
+      - {name: attack_speed, want_greater: true}
+      - {name: cooldown_reduction, want_greater: true}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: potion_capacity, want_greater: true}
+      - {name: armor}
+      - {name: life_per_seconds, want_greater: true}
+      minCount: 3
+    itemType: [pants]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - {name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds, 
+          want_greater: true}
+      - {name: strength, want_greater: true}
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: attack_speed, want_greater: true}
+      minCount: 3
+    itemType: [ring]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Shield:
+    affixPool:
+    - count:
+      - {name: strength}
+      - {name: maximum_life}
+      - {name: cooldown_reduction}
+      - {name: damage_reduction, want_greater: true}
+      minCount: 3
+    itemType: [shield]
+    minGreaterAffixCount: 1
+    minPower: 800
+AspectUpgrades: [of_the_judicator, of_the_indomitable, wildbolt, 
+    of_celestial_strife, of_the_golden_hour, of_ascension]
+Uniques:
+- aspect: {name: shroud_of_false_death}
+- aspect: {name: griswolds_opus}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 90
+- aspect: {name: seal_of_the_second_trumpet}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 90
+- aspect: {name: heir_of_perdition}

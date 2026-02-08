@@ -1,0 +1,87 @@
+# https://mobalytics.gg/diablo-4/builds/judgement-lawkuna-paladin?ws-ngf5-1=activeVariantId,5
+# 2026-01-24 19:56:46 (v8.0.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: to_iron_sharpens_iron}
+      - {name: to_fortitude, want_greater: true}
+      - {name: to_righteousness, want_greater: true}
+      - {name: to_the_best_offense, want_greater: true}
+      minCount: 2
+    itemType: [amulet]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: armor}
+      - {name: maximum_life}
+      - {name: faith_per_second}
+      minCount: 3
+    inherentPool:
+    - count:
+      - {name: attacks_reduce_evades_cooldown_by_seconds}
+      maxCount: 1
+      minCount: 1
+    itemType: [boots]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: strength}
+      - {name: attack_speed, want_greater: true}
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: armor}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - {name: life_per_seconds}
+      - {name: maximum_life}
+      - {name: strength, want_greater: true}
+      - {name: potion_capacity, want_greater: true}
+      minCount: 3
+    itemType: [pants]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: strength, want_greater: true}
+      - {name: critical_strike_chance}
+      - {name: attack_speed, want_greater: true}
+      minCount: 3
+    itemType: [ring]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Shield:
+    affixPool:
+    - count:
+      - {name: strength}
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: critical_strike_chance, want_greater: true}
+      - {name: armor}
+      minCount: 3
+    itemType: [shield]
+    minGreaterAffixCount: 1
+    minPower: 800
+AspectUpgrades: [wildbolt, of_the_indomitable, of_tyraels_jurisdiction, 
+    of_celestial_strife, of_the_golden_hour, of_the_judicator]
+Uniques:
+- aspect: {name: heir_of_perdition}
+- aspect: {name: shroud_of_false_death}
+- aspect: {name: seal_of_the_second_trumpet}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 90
+- aspect: {name: griswolds_opus}
+  minPower: 800
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 90
