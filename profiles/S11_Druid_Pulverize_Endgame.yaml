@@ -1,0 +1,61 @@
+# https://mobalytics.gg/diablo-4/builds/druid-mekuna-pulverize?ws-ngf5-1=activeVariantId,0ac9f0f9-ee47-4211-9db5-205661d874eb
+# 2026-02-09 20:04:39 (v8.0.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: to_toxic_claws, want_greater: true}
+      - {name: to_envenom, want_greater: true}
+      - {name: to_quickshift}
+      - {name: to_defiance}
+      minCount: 2
+    itemType: [amulet]
+    minGreaterAffixCount: 0
+    minPower: 750
+- Boots:
+    affixPool:
+    - count:
+      - {name: willpower, want_greater: true}
+      - {name: movement_speed}
+      - {name: maximum_life}
+      - {name: armor, want_greater: true}
+      minCount: 3
+    itemType: [boots]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: willpower}
+      - {name: attack_speed}
+      - {name: to_pulverize, want_greater: true}
+      - {name: critical_strike_chance, want_greater: true}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - {name: willpower, want_greater: true}
+      - {name: life_on_hit}
+      - {name: lucky_hit_up_to_a_chance_to_make_enemies_vulnerable_for_seconds}
+      - {name: maximum_life}
+      minCount: 3
+    itemType: [ring]
+    minGreaterAffixCount: 1
+    minPower: 800
+AspectUpgrades: [of_retaliation, of_the_rabid_beast, of_the_ursine_horror, 
+    of_the_rampaging_werebeast]
+Uniques:
+- aspect: {name: heir_of_perdition}
+- aspect: {name: shroud_of_false_death}
+- aspect: {name: tibaults_will}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800
+- aspect: {name: rotting_lightbringer}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800
+- aspect: {name: ring_of_starless_skies}
