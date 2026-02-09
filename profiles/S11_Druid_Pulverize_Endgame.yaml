@@ -51,11 +51,12 @@ Uniques:
 - aspect: {name: heir_of_perdition}
 - aspect: {name: shroud_of_false_death}
 - aspect: {name: tibaults_will}
-  minGreaterAffixCount: 2
+  minGreaterAffixCount: 1
   minPercentOfAspect: 90
   minPower: 800
 - aspect: {name: rotting_lightbringer}
-  minGreaterAffixCount: 2
+  minGreaterAffixCount: 1
   minPercentOfAspect: 90
   minPower: 800
 - aspect: {name: ring_of_starless_skies}
+
