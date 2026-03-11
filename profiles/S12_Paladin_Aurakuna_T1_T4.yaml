@@ -1,5 +1,5 @@
 # https://mobalytics.gg/diablo-4/profile/mekuna/builds/auradin-aurakuna
-# 2026-03-11 09:01:04 (v8.1.2)
+# 2026-03-11 10:29:59 (v8.1.2)
 Affixes:
 - Amulet:
     affixPool:
@@ -10,7 +10,6 @@ Affixes:
       - {name: cooldown_reduction}
       minCount: 2
     itemType: [amulet]
-    minGreaterAffixCount: 0
     minPower: 750
 - Boots:
     affixPool:
@@ -26,7 +25,6 @@ Affixes:
       maxCount: 1
       minCount: 1
     itemType: [boots]
-    minGreaterAffixCount: 0
     minPower: 750
 - ChestArmor:
     affixPool:
@@ -57,7 +55,6 @@ Affixes:
       - {name: resistance_to_all_elements}
       minCount: 2
     itemType: [pants]
-    minGreaterAffixCount: 0
     minPower: 750
 - Ring:
     affixPool:
@@ -68,7 +65,6 @@ Affixes:
       - {name: critical_strike_damage}
       minCount: 2
     itemType: [ring]
-    minGreaterAffixCount: 0
     minPower: 750
 - Ring2:
     affixPool:
@@ -79,7 +75,6 @@ Affixes:
       - {name: life_on_hit}
       minCount: 2
     itemType: [ring]
-    minGreaterAffixCount: 0
     minPower: 750
 AspectUpgrades: [of_angelic_masterwork, of_the_arbiters_zephyr, 
     of_heavenly_strength, of_hales_salve, of_celestial_strife, of_ascension, 
@@ -90,7 +85,7 @@ Uniques:
 Paragon:
   Name: S12_Paladin_Aurakuna_T1-T4
   Source: https://mobalytics.gg/diablo-4/profile/mekuna/builds/auradin-aurakuna
-  GeneratedAt: 2026-03-11 09:01:04 UTC
+  GeneratedAt: 2026-03-11 10:29:59 UTC
   Generator: d4lf v8.1.2
   ParagonBoardsList:
   - - Name: paladin-starting-board
