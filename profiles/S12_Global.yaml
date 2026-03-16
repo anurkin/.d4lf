@@ -1,0 +1,39 @@
+# Global rules set
+# 2026-01-11
+Tributes:
+    - tribute_of_ascendance
+    - tribute_of_radiance
+    - tribute_of_refinement
+    - tribute_of_titans
+    - tribute_of_harmony
+Sigils:
+  whitelist:
+# --------
+# Kurast Undercity
+# --------
+    - materials_reserve
+    - obducite_mine
+    - horadric_strongroom
+    - treasure_breach
+    - mythic_prankster
+    # - hidden_armory
+# --------
+# Gems
+# --------
+    # - gem_reserve
+    - amethyst_reserve
+    - diamond_reserve
+    # - emerald_reserve
+    # - ruby_reserve
+    # - sapphire_reserve
+    # - skull_reserve
+    - topaz_reserve
+# --------
+# XP Pools
+# --------
+#   - forgotten_wisdom
+  priority: whitelist
+Uniques:
+  - minPower: 800
+    minGreaterAffixCount: 1
+    minPercentOfAspect: 90

@@ -1,5 +1,5 @@
 # https://mobalytics.gg/diablo-4/profile/mekuna/builds/auradin-aurakuna?ws-ngf5-1=activeVariantId,3
-# 2026-03-11 10:01:25 (v8.1.2)
+# 2026-03-14 21:34:15 (v8.2.4)
 Affixes:
 - Amulet:
     affixPool:
@@ -26,7 +26,7 @@ Affixes:
       maxCount: 1
       minCount: 1
     itemType: [boots]
-    minGreaterAffixCount: 2
+    minGreaterAffixCount: 1
     minPower: 800
 - Legs:
     affixPool:
@@ -37,7 +37,7 @@ Affixes:
       - {name: life_per_seconds}
       minCount: 3
     itemType: [pants]
-    minGreaterAffixCount: 2
+    minGreaterAffixCount: 1
     minPower: 800
 - Ring:
     affixPool:
@@ -48,7 +48,7 @@ Affixes:
       - {name: life_on_hit}
       minCount: 3
     itemType: [ring]
-    minGreaterAffixCount: 2
+    minGreaterAffixCount: 1
     minPower: 800
 - Ring2:
     affixPool:
@@ -59,7 +59,7 @@ Affixes:
       - {name: critical_strike_chance}
       minCount: 3
     itemType: [ring]
-    minGreaterAffixCount: 2
+    minGreaterAffixCount: 1
     minPower: 800
 - Shield:
     affixPool:
@@ -70,7 +70,7 @@ Affixes:
       - {name: damage_reduction, want_greater: true}
       minCount: 3
     itemType: [shield]
-    minGreaterAffixCount: 2
+    minGreaterAffixCount: 1
     minPower: 800
 AspectUpgrades: [of_the_arbiters_zephyr, of_the_disciple, of_ascension, 
     of_celestial_strife, virtuous, of_holy_punishment]
@@ -83,8 +83,8 @@ Paragon:
   Name: S12_Paladin_Aurakuna_Endgame
   Source: 
     https://mobalytics.gg/diablo-4/profile/mekuna/builds/auradin-aurakuna?ws-ngf5-1=activeVariantId,3
-  GeneratedAt: 2026-03-11 10:01:25 UTC
-  Generator: d4lf v8.1.2
+  GeneratedAt: 2026-03-14 21:43:04 UTC
+  Generator: d4lf v8.2.4
   ParagonBoardsList:
   - - Name: paladin-starting-board
       Glyph: paladin-spirit
