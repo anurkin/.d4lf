@@ -20,20 +20,20 @@ Sigils:
 # --------
 # Gems
 # --------
-    - gem_reserve
+    # - gem_reserve
     - amethyst_reserve
     - diamond_reserve
-    - emerald_reserve
-    - ruby_reserve
-    - sapphire_reserve
-    - skull_reserve
+    # - emerald_reserve
+    # - ruby_reserve
+    # - sapphire_reserve
+    # - skull_reserve
     - topaz_reserve
 # --------
 # XP Pools
 # --------
-    - forgotten_wisdom
+#   - forgotten_wisdom
   priority: whitelist
 Uniques:
   - minPower: 800
     minGreaterAffixCount: 1
-    minPercentOfAspect: 90
+    minPercentOfAspect: 100

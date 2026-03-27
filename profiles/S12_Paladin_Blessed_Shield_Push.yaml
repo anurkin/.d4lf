@@ -1,0 +1,349 @@
+# https://mobalytics.gg/diablo-4/builds/mekuna-s-blessed-shield-thorns
+# 2026-03-27 12:30:41 (v8.3.2)
+Affixes:
+- Amulet:
+    affixPool:
+    - count:
+      - {name: to_crack_in_the_armor, want_greater: true}
+      - {name: to_the_best_offense, want_greater: true}
+      - {name: to_fortitude, want_greater: true}
+      - {name: to_iron_sharpens_iron, want_greater: true}
+      minCount: 2
+    itemType: [amulet]
+    minGreaterAffixCount: 1
+    minPower: 800
+- Boots:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: maximum_life, want_greater: true}
+      - {name: faith_per_second}
+      - {name: healing_received, want_greater: true}
+      minCount: 3
+    itemType: [boots]
+    minGreaterAffixCount: 3
+    minPower: 800
+- Gloves:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: lucky_hit_up_to_a_chance_to_restore_primary_resource, want_greater: true}
+      - {name: attack_speed, want_greater: true}
+      minCount: 3
+    itemType: [gloves]
+    minGreaterAffixCount: 3
+    minPower: 800
+- Legs:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: thorns, want_greater: true}
+      - {name: maximum_life, want_greater: true}
+      - {name: faith_per_second}
+      minCount: 3
+    itemType: [pants]
+    minGreaterAffixCount: 3
+    minPower: 800
+- Ring:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: attack_speed, want_greater: true}
+      - {name: critical_strike_chance, want_greater: true}
+      minCount: 3
+    itemType: [ring]
+    minGreaterAffixCount: 4
+    minPower: 800
+- Ring2:
+    affixPool:
+    - count:
+      - {name: strength, want_greater: true}
+      - {name: cooldown_reduction, want_greater: true}
+      - {name: attack_speed, want_greater: true}
+      - {name: life_on_hit, want_greater: true}
+      minCount: 3
+    itemType: [ring]
+    minGreaterAffixCount: 4
+    minPower: 800
+AspectUpgrades: [of_ascension, of_hales_salve, wildbolt, of_celestial_strife, 
+    of_utmost_glory, of_the_juggernauts_covenant]
+Uniques:
+- aspect: {name: crown_of_lucion}
+  affix:
+  - {name: maximum_life, want_greater: true}
+  - {name: lucky_hit_chance, want_greater: true}
+  - {name: shadow_resistance}
+  - {name: cooldown_reduction, want_greater: true}
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 80
+  minPower: 800
+- aspect: {name: mantle_of_the_grey}
+  affix:
+  - {name: maximum_life}
+  - {name: thorns, want_greater: true}
+  - {name: to_juggernaut_skills}
+  - {name: to_thorns_and_thistles, want_greater: true}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800
+- aspect: {name: ward_of_the_white_dove}
+  affix:
+  - {name: maximum_life}
+  - {name: armor}
+  - {name: chance_for_blessed_shield_to_deal_double_damage, want_greater: true}
+  - {name: to_blessed_shield}
+  minGreaterAffixCount: 1
+  minPercentOfAspect: 90
+  minPower: 800
+- aspect: {name: griswolds_opus}
+  affix:
+  - {name: strength}
+  - {name: maximum_life}
+  - {name: to_break_the_line, want_greater: true}
+  - {name: to_heavyweight, want_greater: true}
+  minGreaterAffixCount: 2
+  minPercentOfAspect: 90
+  minPower: 800
+Paragon:
+  Name: S12_Paladin_Blessed_Shield_Push
+  Source: https://mobalytics.gg/diablo-4/builds/mekuna-s-blessed-shield-thorns
+  GeneratedAt: 2026-03-27 12:30:41 UTC
+  Generator: d4lf v8.3.2
+  ParagonBoardsList:
+  - - Name: paladin-starting-board
+      Glyph: paladin-spirit
+      Rotation: 0°
+      Nodes: [false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, true, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, false, true, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, true, false, true, true, false, false, false,
+        false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, true, true, false, true, true, true, false, false,
+        false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, true, false, true, true, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, true, true, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, true, true, true, true, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, true, false, true, 
+          true, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, true, true, false, 
+          true, true, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, true, true, 
+          false, true, true, true, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, true, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, true, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false]
+    - Name: paladin-preacher
+      Glyph: paladin-outmatch
+      Rotation: 0°
+      Nodes: [false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, true, false, false, false, false, 
+          false, true, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, true, true, true, true, false, true,
+        true, true, true, false, false, false, false, false, false, false, false,
+        false, false, false, false, true, true, false, true, false, false, false,
+        true, true, false, false, false, false, false, false, false, true, true, 
+          true, true, true, true, false, false, true, false, false, false, false,
+        true, true, true, true, true, true, false, false, false, false, true, 
+          false, false, false, false, false, true, false, false, false, false, 
+          false, false, false, true, false, false, false, false, false, false, 
+          true, true, false, false, false, false, true, false, false, false, 
+          false, false, false, false, true, false, false, false, false, false, 
+          false, true, true, false, false, false, false, true, true, false, 
+          false, false, false, false, false, true, false, false, false, false, 
+          false, false, true, false, false, false, false, true, true, true, true,
+        true, false, false, false, true, true, true, false, false, false, false, 
+          false, false, false, false, true, false, true, false, true, false, 
+          true, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, true, true, true, true, false, false, 
+          false, true, true, true, false, false, false, false, false, false, 
+          false, false, false, false, false, false, true, true, true, false, 
+          false, false, false, true, true, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, true, true, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false]
+    - Name: paladin-shield-bearer
+      Glyph: paladin-revenge
+      Rotation: 270°
+      Nodes: [false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, true, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, true, true, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, true, true, true, 
+          true, true, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, true, true, false, 
+          false, true, true, false, false, false, false, false, false, true, 
+          false, false, false, false, false, false, false, false, true, false, 
+          false, false, false, true, false, false, false, false, false, true, 
+          true, true, false, false, false, false, false, false, true, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, true, true, false, false, false, false, false, false, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, true, true, true, true, true, true, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, false, false, false, false, true, true, false, 
+          false, true, false, false, false, false, false, false, false, false, 
+          false, true, true, true, false, false, false, false, false, false, 
+          false, true, true, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, true, 
+          true, false, true, true, true, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, false, false, true, true, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, true, false, false, false, true, false, false, false, false, 
+          false, false, false, false, false, false, false, false, true, true, 
+          false, false, true, true, true, true, true, false, false, false, false,
+        false, false, false, false, false, false, false, false, false, true, 
+          true, true, true, false, false, false, true, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, true, false, false, false, false, false, true, true, true, false,
+        false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, true, 
+          true, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false]
+    - Name: paladin-beacon
+      Glyph: paladin-honed
+      Rotation: 180°
+      Nodes: [false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, true, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, true, true, true, true, true, true, true, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, true, false, false, true, 
+          true, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, true, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, true, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, true, true, false, false, false, false, true, 
+          false, false, false, false, true, false, false, false, false, false, 
+          false, false, false, false, true, true, false, false, true, true, true,
+        false, false, false, false, true, true, false, false, false, false, 
+          false, false, false, false, true, true, false, false, true, false, 
+          true, false, false, false, false, true, false, false, false, false, 
+          false, false, false, false, false, false, true, true, false, true, 
+          false, false, false, false, false, true, true, false, false, false, 
+          false, false, false, false, false, false, false, false, true, true, 
+          true, false, false, false, false, false, true, false, false, false, 
+          false, false, false, false, false, false, false, false, true, true, 
+          true, true, true, false, false, true, true, true, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, false, true, true, true, true, true, true, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, false, true, false, false, false, true, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, true, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, true, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, true, true, true, true, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false]
+    - Name: paladin-castle
+      Glyph: paladin-sentinel
+      Rotation: 0°
+      Nodes: [false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, true, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, true, true, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, true, true, true, true, true,
+        false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, true, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, true, true, true, true, true, false,
+        true, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, true, false, true, true, false, 
+          true, true, true, true, true, false, false, false, false, false, false,
+        false, false, false, false, false, false, true, true, false, true, false,
+        true, true, true, false, false, false, false, false, false, true, true, 
+          false, false, false, false, false, true, false, false, true, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          true, false, false, false, false, true, true, false, true, true, false,
+        false, false, false, false, false, false, false, false, false, false, 
+          true, true, true, true, true, true, true, false, false, true, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, true, false, false, true, false, false, false, true, 
+          true, true, true, true, false, false, false, false, false, false, 
+          false, false, true, true, false, false, false, false, false, false, 
+          true, false, false, false, false, false, false, false, false, false, 
+          false, false, true, true, false, false, false, false, false, false, 
+          true, true, false, false, false, false, false, false, false, false, 
+          false, false, true, true, false, false, false, false, false, false, 
+          false, true, false, false, false, false, false, false, false, false, 
+          false, false, false, true, false, false, false, false, false, false, 
+          true, true, true, false, false, false, false, false, false, false, 
+          false, false, false, false, true, false, false, false, false, false, 
+          false, true, true, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false, false, false, false, false, false, 
+          false, false, false, false, false]
